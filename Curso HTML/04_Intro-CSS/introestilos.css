@@ -1,0 +1,49 @@
+
+
+/*Estilos para colores */
+
+.colores {
+    color: rebeccapurple;
+}
+
+.color-hexadecimal {
+    color: #EF959C;
+}
+
+.color-rgb {
+    color: rgb(100, 20, 120);
+}
+
+.color-rgba {
+    color: rgba(150, 150, 150, 0.2);
+}
+
+/*Fondos */
+
+.fondo {
+    background-color: coral;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPNPq7E4jP9oV8Ao4Ap4wk7RJJFVy1xSMyg&usqp=CAU");
+    background-position: center bottom;
+}
+
+/* Tamaños */
+
+.ancho {
+    background-color: #EF959C;
+    width: 200px;
+}
+
+.alto {
+    background-color: blueviolet;
+    height: 300px;
+}
+
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 3px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 5px;
+}
