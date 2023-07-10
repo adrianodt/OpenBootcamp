@@ -1,3 +1,4 @@
+
 h1 {
     color: blue;
 }
@@ -6,4 +7,26 @@ h1 {
 p {
     color: brown;
     font-size: 24px;
+}
+
+#primera-noticia {
+    color: chartreuse;
+}
+
+#segunda-noticia {
+    color: cadetblue;
+}
+
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+.warning {
+    color: red;
+}
+
+.autor, .fecha, .ubicacion {
+    text-decoration: underline;
+    color: chocolate;
 }
