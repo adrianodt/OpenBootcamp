@@ -1,0 +1,7 @@
+body section.main .contenedor p {
+  color: blue;
+}
+
+body section.main .contenedor #boton-contenedor {
+    background-color: yellow;
+}
