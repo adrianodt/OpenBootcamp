@@ -1,0 +1,24 @@
+/* Especificidad */
+/* (1,0,0) */
+/* (0,1,0) */
+/* (0,0,1) */
+
+h1 .h1-class #h1-id {
+    color:chartreuse;
+  }
+
+h1 {
+  color: blue !important /* Es el que tiene más especificidad de todos, pero tratar de evitarlo*/;
+}
+
+.h1-class {
+  color: green;
+}
+
+#h1-id {
+  color: aqua;
+}
+
+p {
+  color: red;
+}
