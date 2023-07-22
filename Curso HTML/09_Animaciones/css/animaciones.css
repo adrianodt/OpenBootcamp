@@ -1,0 +1,50 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color:cornflowerblue;
+
+}
+
+.hijo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    background-color: darkolivegreen;
+    /* transition: all 1s ease-in .2s; */
+    border-radius: 150px;
+    animation: traslacion .4s  infinite forwards ;
+    
+}
+
+.padre:hover .hijo {
+    /* transform: translateX(100%);
+    background-color: aqua; */
+    /* animation: traslacion .5s infinite forwards alternate; */
+    animation-play-state: paused;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: darkolivegreen;
+        transform: translateX(0%) translateY(0%);
+    }
+
+    25% {
+        transform: translateX(100%) translateY(0%);
+    }
+
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75% {
+        transform: translateX(0%) translateY(100%);
+    }
+
+    100% {
+        background-color: chartreuse;
+        transform: translateX(0%) translateY(0%);
+    }
+}
