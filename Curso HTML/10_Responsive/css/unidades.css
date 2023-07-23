@@ -19,12 +19,16 @@ body {
 
 .px {
   background-color: green;
+  width: 200px;
 }
 
 .porcentaje {
   background-color: red;
+  width: 50%;
 }
 
 .view {
   background-color: yellow;
+  width: 50vw;
 }
+
